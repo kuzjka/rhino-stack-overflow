@@ -1,0 +1,11 @@
+plugins {
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation 'org.mozilla:rhino:1.7.14'
+}
